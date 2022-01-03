@@ -1,0 +1,35 @@
+body h2{
+text-align: center;
+}
+.header{
+  background: url("/img/cappadocia-gdaa1104a9_1920.jpg") no-repeat center;
+  height: 10vh;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.568);
+  background-attachment: fixed;
+  background-size: cover;
+  filter: brightness(90%);
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+nav a{
+  color: rgb(198, 212, 124);
+  text-decoration: none;
+  padding: 1% 2%;
+  font-size: 20px;
+}
+nav a:hover{
+  color: wheat;
+}
+.espaco{
+  height: 10vh;
+}
+
+.carousel-item img{
+  height: 70vh;
+}
+.card img{
+  height: 300px;
+}
